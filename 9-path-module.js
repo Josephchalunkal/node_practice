@@ -1,0 +1,8 @@
+const path = require('path')
+console.log(path.sep)
+const newPath = path.join('/content','subfolder','jsb.txt')
+console.log(newPath)
+const base = path.basename(newPath)
+console.log(base)
+const absolute = path.resolve(__dirname,'content','subfolder','jsb.txt')
+console.log(absolute)
